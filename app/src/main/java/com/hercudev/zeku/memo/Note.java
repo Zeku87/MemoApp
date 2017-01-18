@@ -5,7 +5,7 @@ package com.hercudev.zeku.memo;
  *
  * Let's create a class where we can encapsulate all the attributes and methods that a note can have.
  *
- * Created by zeku87 on 12/01/17.
+ * Created by Zeku on 12/01/17.
  */
 public class Note {
 

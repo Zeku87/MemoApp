@@ -22,9 +22,7 @@ import android.widget.Toast;
  *
  * Podéis experimentar para ver el efecto en el layout.
  *
- * TODO implementar el método sendNoteSelected(Note)
- *
- * Created by zeku87 on 13/01/17.
+ * Created by Zeku on 13/01/17.
  */
 public class DialogShowNote extends DialogFragment {
 
@@ -75,7 +73,6 @@ public class DialogShowNote extends DialogFragment {
 
     /**
      * En la actividad MainActivity el usuario tocará una nota y será enviada como parámetro de entrada
-     * y encapsulada en un objeto Note a este método
      * @param noteSelected de tipo Note
      */
     public void sendNoteSelected(Note noteSelected) {

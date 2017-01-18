@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:layout_marginLeft="7dp" android:layout_marginRight="7dp">
+    android:paddingLeft="5dp">
 
     <LinearLayout
-        android:id="@+id/show_categoryLL"
-        android:orientation="horizontal"
+        android:id="@+id/linearLayoutCategory"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:padding="5dp"
-        android:layout_marginLeft="10dp">
+        android:paddingTop="5dp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -31,50 +29,32 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageViewTodo"
             android:src="@drawable/ic_indeterminate_check_box_black_24dp"/>
+
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/note_contentLL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_below="@+id/show_categoryLL"
-        android:layout_above="@+id/linearLayout2"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="5dp">
+        android:layout_below="@+id/linearLayoutCategory"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="5dp">
 
         <TextView
             android:id="@+id/textView_show_title"
-            android:gravity="center_horizontal"
+            android:gravity="left"
             android:textStyle="bold"
             android:textAppearance="@android:style/TextAppearance.Large"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/title_hint"/>
+
         <TextView
             android:id="@+id/textView_show_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/description_hint"/>
 
-
     </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:weightSum="1"
-        android:gravity="center_horizontal"
-        android:id="@+id/linearLayout2">
-
-        <Button
-            android:layout_weight=".5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/okay_button"
-            android:id="@+id/buttonOk" />
-    </LinearLayout>
 
 </RelativeLayout>

@@ -25,7 +25,7 @@ import android.widget.EditText;
  * La referencia de los widgets, tal como R.id.editTitle, es una referencia(int)
  * almacenada en la pila(heap)
  *
- * Created by zeku87 on 13/01/17.
+ * Created by Zeku on 13/01/17.
  */
 public class DialogNewNote extends DialogFragment {
     @Override
@@ -68,6 +68,8 @@ public class DialogNewNote extends DialogFragment {
                 note.setImportant(importantCheckBox.isChecked());
                 note.setTodo(todoCheckBox.isChecked());
 
+                // getActivity devuelve la actividad a la que esta asciada este fragmento que es MainActivity
+                // y desde dicho contexto podemos invocar a createNewNote()
                 MainActivity mainActivity = (MainActivity) getActivity();
                 mainActivity.createNewNote(note);
 

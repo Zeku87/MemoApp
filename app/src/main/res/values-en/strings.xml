@@ -19,7 +19,4 @@
     <string name="todo_checkbox">To do</string>
     <string name="dialog_new_note_title">New Note</string>
 
-
-    <!--TODO Boton temporal (ELIMINAR)-->
-    <string name="temporal">Test</string>
 </resources>
