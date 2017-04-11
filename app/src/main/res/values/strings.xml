@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Memo</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="action_add">Añadir</string>
+
+    <string name="dialog_new_note_title">Nueva nota</string>
+
+    <string name="title_hint">Título</string>
+    <string name="description_hint">Descripción</string>
+    <string name="idea_checkbox">Idea</string>
+    <string name="important_checkbox">Importante</string>
+    <string name="todo_checkbox">Por hacer</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="okay_button">Aceptar</string>
+
+    <string name="settings_title">Preferencias</string>
+    <string name="sound_title">Sonido</string>
+    <string name="sound_checkbox">On/Off</string>
+    <string name="anims_title">Velocidad de la animación</string>
+    <string name="rb_fast">Rápida</string>
+    <string name="rb_slow">Lenta</string>
+    <string name="rb_none">Desactivar</string>
+
+
+</resources>
